@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,14 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">My Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -30,17 +33,25 @@
     </nav>
 
     <!-- Content (Home Section as an example) -->
-    <section id="home" class="home-section d-flex justify-content-center align-items-center text-center" style="height: 100vh; background-color: lightblue;">
+    <section id="home" class="home-section d-flex justify-content-center align-items-center text-center"
+        style="height: 100vh; background-image: url('img/pxfuel.jpg');">
         <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p class="lead">I'm a Web Developer and Designer</p>
+            <h1>Ahmad Hanif Nur'aidzin</h1>
+            <p class="lead">Web Developer and Designer</p>
+            <button type="button" class="btn btn-primary btn-lg">Visit My Works</button>
         </div>
     </section>
 
-    <section id="about" style="height: 100vh; background-color: lightgreen;">
-        <div class="container">
-            <h2 class="text-center">Profil</h2>
-            <p class="lead text-center">Deskripsi tentang diri kamu...</p>
+    <section id="about" style="height: 70vh; background-color: lightgray;">
+        <div class="container d-flex justify-content-center align-items-center text-center pt-5">
+            <img src="img/AhmadH.png" alt="myprofil">
+            <div>
+                <h2 class="text-center">Profil</h2>
+                <p class="lead text-center">Saya adalah mahasiswa teknik informatika Universitas Banten jaya dengan
+                    minat yang mendalam dalam pengembangan website. Selama masa studi, saya telah mengembangkan
+                    keterampilan dalam berbagai bahasa pemrograman seperti PHP, Javascript, dan C++.</p>
+            </div>
+            <p></p>
         </div>
     </section>
 
@@ -51,7 +62,8 @@
             <div class="row">
                 <div class="col-md-4 d-flex align-items-stretch">
                     <div class="card">
-                        <img src="img/project1.jpg" class="card-img-top" alt="Project 1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_2bYtlogyQHgT5s_NgUyyk3NBebtdFf0IPvoo3VWDStTkLEfFxw-N_XpYcly5mUkxAKo&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_2bYtlogyQHgT5s_NgUyyk3NBebtdFf0IPvoo3VWDStTkLEfFxw-N_XpYcly5mUkxAKo&usqp=CAU"
+                            class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title">Project 1</h5>
                             <p class="card-text">Description of Project 1</p>
@@ -60,7 +72,8 @@
                 </div>
                 <div class="col-md-4 d-flex align-items-stretch">
                     <div class="card">
-                        <img src="img/project2.jpg" class="card-img-top" alt="Project 2">
+                        <img src="https://techinnovations.com/wp-content/uploads/2021/09/cropped-TI_logo-e1632418080367.png"
+                            class="card-img-top" alt="Project 2">
                         <div class="card-body">
                             <h5 class="card-title">Project 2</h5>
                             <p class="card-text">Description of Project 2</p>
@@ -69,7 +82,8 @@
                 </div>
                 <div class="col-md-4 d-flex align-items-stretch">
                     <div class="card">
-                        <img src="img/project3.jpg" class="card-img-top" alt="Project 3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVvgkan53L31uXRafHlExmIZnlYBqg1v7WSXT_R5zm4n1tO8F9V_QNJKxE2XrvUtcHBfY&usqp=CAU"
+                            class="card-img-top" alt="Project 3">
                         <div class="card-body">
                             <h5 class="card-title">Project 3</h5>
                             <p class="card-text">Description of Project 3</p>
@@ -107,12 +121,18 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-4 bg-light">
-        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    <footer class="text-center bg-light">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="1"
+                d="M0,192L48,197.3C96,203,192,213,288,202.7C384,192,480,160,576,160C672,160,768,192,864,181.3C960,171,1056,117,1152,112C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+        <p class="mt-3">&copy; 2024 [Ahmad Hani Nur'aidzin]. All Rights Reserved.</p>
     </footer>
 
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
