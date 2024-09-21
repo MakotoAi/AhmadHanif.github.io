@@ -7,7 +7,7 @@ body {
 .sticky-top {
     position: sticky;
     top: 0;
-    z-index: 1030; /* Adjusted z-index to ensure it stays on top of other elements */
+    z-index: 1030;
 }
 
 /* Navbar */
@@ -18,20 +18,22 @@ body {
 /* Home Section */
 .home-section {
     height: 100vh;
-    background-color: #f8f9fa;
+    background-image: url(../Portofolio/img/pxfuel.jpg); 
+    background-size: cover; /* Memastikan gambar mengisi seluruh area */
+    background-position: center; /* Memastikan gambar tetap terpusat */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .home-section h1 {
-    font-size: 48px; /* Updated according to your request */
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
 .home-section p {
-    font-size: 18px; /* Updated according to your request */
-    color: #666; /* Updated color */
+    font-size: 18px;
+    color: #666;
 }
 
 .home-section button {
